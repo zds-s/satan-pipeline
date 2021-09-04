@@ -1,0 +1,27 @@
+{
+  "name": "death_satan/satan-pipeline",
+  "description": "This package is the implementation of the pipeline|zh-cn:实现管道模式",
+  "keywords": [
+    "pipeline",
+    "satan pipeline",
+    "管道"
+  ],
+  "type": "library",
+  "homepage": "https://www.cnblogs.com/death-satan",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "death-satan",
+      "email": "2771717608@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "SaTan\\": "src"
+    }
+  },
+  "require": {
+    "php": "^7.4"
+  },
+  "minimum-stability": "stable"
+}
