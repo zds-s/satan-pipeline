@@ -47,7 +47,8 @@ class Stack implements Processor
      */
     public function setStacks($stacks): self
     {
-        $this->stacks = is_array($stacks) ? $stacks : func_get_args();
+        $stack = is_array($stacks) ? $stacks : func_get_args();
+        $this->stacks = array_merge($this->stacks, $stack);
         return $this;
     }
 
